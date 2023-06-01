@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Tsukimi+Rounded:wght@700&display=swap');
+
+:root{
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+.links ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    position: sticky;
+    background-color: #d9d9d9;
+    height: 60px;
+    border-bottom: solid 1px rgb(93,93,93);
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.portfolio{
+    font-family: 'Tsukimi Rounded', sans-serif;
+    font-size: 1.4rem;
+    margin: 14px;
+}
+
+.links li{
+    float: right;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.main-box{
+    background-color: #d9d9d9;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.content{
+    display:flex;
+    padding: 25px;
+}
+
+.pic img{
+    width: 43%;
+    height: auto;
+}
+
+.bio{
+    padding: 15px;
+    padding-top: 0px;
+    display:flex;
+    flex-direction:column;
+}
+
+#bold{
+    font-weight: bold;
+    font-size: 1.75 rem;
+}
+
+#reg{
+    font-size: 1.25 rem;
+    line-height: 1 rem;
+    font-weight: regular;
+}
+
+#light{
+    font-weight: lighter;
+    font-size: 1.25 rem;
+    line-height: 1.4 rem;
+}
+
+.bio ul{
+    list-style: square;
+}
+
+.bio li{
+    font-size: 1.25 rem;
+    line-height: 1.4 em;
+}
+#bold-s{
+    font-weight: bold;
+    font-size: 1.25 rem;
+}
